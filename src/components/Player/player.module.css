@@ -1,3 +1,61 @@
 .wrap {
+    background-color: #efefef;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.player_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+
+.player {
+    display: flex;
+    width: 7vw;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.player_skip_previous {
+
+}
+
+.player_play_pause {
+
+}
+
+.player_skip_next {
+
+}
+
+.progress_area_wrap {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+
+.progress_area {
+    height: 6px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #bbb8b8;
+    border-radius: 50px;
+}
+
+.progress_bar {
+    height: inherit;
+    width: 50%;
+    border-radius: inherit;
+    background: linear-gradient(90 deg, var(--pink) 0%, var(--violet));
+}
+
+.timer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
 }
